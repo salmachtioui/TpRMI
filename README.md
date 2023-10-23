@@ -10,7 +10,7 @@ l'interface utilisateur est développée en utilisant Swing, offrant une expéri
 
 - [Côté de la base de données] :
 Elle est gérée avec Hibernate, une technologie de mappage objet-relationnel qui simplifie le stockage et la récupération des données. Cela garantit que les informations sur les machines et les salles sont stockées de manière efficace et cohérente, facilitant ainsi la gestion des données.
-Voici la démonstration de notre proje:
+- Voici la démonstration de notre projet:
 
 # Le shéma de ClientRMI:
 ![rmi1](https://github.com/salmachtioui/TpRMI/assets/147477621/f5cec392-7818-4522-8ffc-af8c13025a82)
