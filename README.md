@@ -2,13 +2,13 @@
 # Présentation génerale sur le projet:
 Dans l'ensemble, ce projet desktop de gestion des machines et des salles offre un moyen pratique et convivial pour les utilisateurs de suivre et de gérer les équipements dans diverses salles, tout en utilisant la puissance de RMI et Hibernate pour garantir une communication efficace et une gestion des données optimale.
 Notre projet va entamer sur 3 cotes principales:
-[Côté serveur de l'application]:
+- [Côté serveur de l'application]:
 vous avons mis en place un système RMI (Remote Method Invocation) qui permet à un client distant de se connecter au serveur. Le serveur est chargé de gérer les informations relatives aux machines et aux salles. Il propose une interface de gestion des machines où les clients peuvent ajouter, modifier et supprimer des machines. De plus, il permet aux clients de filtrer les machines en fonction du code de salle, offrant ainsi un moyen de visualiser les machines associées à une salle spécifique. Le serveur gère également les informations relatives aux salles, avec la possibilité d'ajouter de nouvelles salles en spécifiant un code et un identifiant.
 
-[Côté client de l'application] : 
+- [Côté client de l'application] : 
 l'interface utilisateur est développée en utilisant Swing, offrant une expérience conviviale pour les utilisateurs finaux. Les clients peuvent ajouter de nouvelles machines en fournissant des détails tels que( la marque, la référence, le prix et l'ID de la salle) à laquelle la machine est associée. Ils peuvent également effectuer des opérations de mise à jour et de suppression sur les machines existantes. De plus, l'interface permet aux clients de filtrer les machines par le code de la salle, facilitant ainsi la recherche et la visualisation des machines spécifiques à une salle donnée.
 
-[Côté de la base de données] :
+- [Côté de la base de données] :
 Elle est gérée avec Hibernate, une technologie de mappage objet-relationnel qui simplifie le stockage et la récupération des données. Cela garantit que les informations sur les machines et les salles sont stockées de manière efficace et cohérente, facilitant ainsi la gestion des données.
 Voici la démonstration de notre proje:
 
