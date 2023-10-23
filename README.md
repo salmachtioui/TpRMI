@@ -34,12 +34,12 @@ Voici la démonstration de notre proje:
 ![rmi7](https://github.com/salmachtioui/TpRMI/assets/147477621/754d4fe4-a0e5-4f19-b443-6fff75079014)
 
 # Les technologies utilisées:
-*Java
-*Swing
-*Xampp( MySql) pour creation et l'apercu des bases de donnees
-*Hibernate
-*RMI pour créer la connexion entre le "clientrmi" et "serveurrmi"
+- Java
+- Swing
+- Xampp( MySql) pour creation et l'apercu des bases de donnees
+- Hibernate
+- RMI pour créer la connexion entre le "clientrmi" et "serveurrmi"
 
 # Les fonctionnalites implementées:
-*CRUD (Create, Read, Update, Delete) pour machine. 
-*CRUD (Create, Read, Update, Delete) pour salle
+- CRUD (Create, Read, Update, Delete) pour machine. 
+- CRUD (Create, Read, Update, Delete) pour salle
